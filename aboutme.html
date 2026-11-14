@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        body {
+        overflow-y: auto;
+        }
+    
+    
+        #about-page {
+            position: relative;
+            z-index: 2;
+            width: 90%;
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 50px;
+            background: rgba(27, 31, 34, 0.85);
+            border-radius: 5px;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        #about-page h1 {
+            margin-bottom: 30px;
+        }
+
+        #about-page p {
+            text-align: justify;
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+  
+        /* Introduction with portrait */
+        .about-intro {
+            display: flex;
+            align-items: flex-start;
+            gap: 35px;
+            margin-bottom: 30px;
+        }
+        
+        .about-text {
+            flex: 1;
+            min-width: 0;
+        }
+        
+        .about-photo {
+            width: 240px;
+            flex-shrink: 0;
+        }
+        
+        .about-photo img {
+            display: block;
+            width: 100%;
+            height: auto;
+            border-radius: 45px;
+        }
+        
+        /* Mobile layout */
+        @media screen and (max-width: 736px) {
+            .about-intro {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+        #about-page {
+        padding: 25px;
+        margin: 30px auto;
+        }
+        
+            .about-photo {
+                width: 70%;
+                max-width: 280px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div id="about-page">
+        <h1 class="major">About Me</h1>
+            <div class="about-intro">
+                <!-- LEFT SIDE: Text -->
+                <div class="about-text">
+
+                    <p>
+                        I am Diana Ismail, an astrophysicist; currently a postdoctoral researcher at the Observatory of Strabourg in France. 
+                        I study the cold interstellar medium of distant galaxies to understand how they evolve across cosmic time.
+                        Using large telescopes such as NOEMA and ALMA, I focus on some of the dustiest and most intensely star-forming galaxies in the Universe, 
+                        which could potentially be the progenitors of today's most massive galaxies. 
+                    </p>
+                    
+                    </p>
+                        What fascinates me most about astronomy is that the farther we look into space, the farther back in time we travel. 
+                        The galaxies I study take us 10–12 billion years into the past, offering a glimpse of the Universe when it was still young.
+                    </p>
+                    
+            
+
+                </div>
+        
+                    <!-- RIGHT SIDE: Picture -->
+                <div class="about-photo">
+                    <img src="images/profile.jpg"
+                         alt="Diana Ismail">
+                </div>
+        
+                </div>
+                <!-- END INTRODUCTION + PICTURE -->
+                    
+                </p>
+                    I completed my PhD in November 2023 at the Laboratoire d'Astrophysique de Marseille in southern France, under the supervision of Véronique Buat and Alexandre Beelen. 
+                    During my PhD, I joined the <a href="https://iram-institute.org/newsroom/general/measuring-the-distances-of-luminous-galaxies-in-the-early-universe/" target="_blank" rel="noopener noreferrer">z-GAL NOEMA Large Program</a>, 
+                    where I played a key role in the analyzing the data and leading one of the program's main publications. 
+                    I am still in close collaboration with the team and conducting further research on z-GAL galaxies. 
+                    Before that, I completed my master's degree in Astronomy and Astrophysics back in Lebanon (2016-2019), in a joint program between Notre Dame University and Université de Saint Joseph, 
+                    and a bachelor's degree in Physics (2012-2015) at the Lebanese University.  
+                </p>
+                
+                <p>
+                    Feel free to explore my
+                    <a href="research.html">Research</a>,
+                    <a href="cv.html">CV</a>,
+                    <a href="publications.html">Publications</a>,
+                    or <a href="news.html">Latest news</a>.
+                </p>
+        
+            
+            
+                    <ul class="actions">
+                        <li>
+                            <a href="index.html" class="button">
+                                Back to Home
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            
+                <!-- RIGHT SIDE: Picture -->
+                <div class="about-photo">
+                    <img src="images/profile.jpg" alt="Diana Ismail">
+            </div>
+
+    <!-- Background -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

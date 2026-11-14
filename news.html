@@ -1,0 +1,161 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Recent News</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        body {
+            overflow-y: auto;
+        }
+
+        #news {
+            position: relative;
+            z-index: 2;
+            width: 90%;
+            max-width: 900px;
+            margin: 60px auto;
+            padding: 50px;
+            background: rgba(27, 31, 34, 0.85);
+            border-radius: 5px;
+        }
+
+        #news h1 {
+            margin-bottom: 25px;
+        }
+
+        #news p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* News timeline */
+        .news-item {
+            display: flex;
+            gap: 25px;
+            padding: 25px 0;
+            border-bottom: 1px solid
+                rgba(255, 255, 255, 0.15);
+        }
+
+        .news-date {
+            width: 100px;
+            flex-shrink: 0;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+
+        .news-content {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .news-title {
+            font-size: 1.15rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .news-description {
+            font-size: 1rem;
+            line-height: 1.7;
+            opacity: 0.85;
+        }
+
+        .news-description a {
+            text-decoration: underline;
+        }
+
+        .news-placeholder {
+            padding: 40px 0;
+            opacity: 0.7;
+            font-style: italic;
+        }
+
+        @media screen and (max-width: 736px) {
+            #news {
+                padding: 25px;
+                margin: 30px auto;
+            }
+
+            .news-item {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .news-date {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="news">
+
+        <h1 class="major">Recent News</h1>
+
+        <p>
+            Updates from my research, conferences,
+            and academic adventures.
+        </p>
+        
+        <!--
+        <div class="news-item">
+
+        <div class="news-date">
+            Nov 2026
+        </div>
+    
+        <div class="news-content">
+            <div class="news-title">
+                A new paper is out!
+            </div>
+    
+            <div class="news-description">
+                A short description of your new publication.
+                <a href="YOUR_PAPER_LINK">Read the paper</a>
+            </div>
+        </div>
+    
+        </div> 
+        -->
+
+        <!-- NEWS ENTRIES GO HERE -->
+
+        <div class="news-placeholder">
+            More updates coming soon!
+        </div>
+        
+
+
+
+        <!-- BACK BUTTON -->
+        <ul class="actions">
+            <li>
+                <a href="index.html" class="button">
+                    Back to Home
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- Background -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>

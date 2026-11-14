@@ -1,0 +1,226 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Research</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <style>
+        body {
+            overflow-y: auto;
+        }
+
+        #research {
+            position: relative;
+            z-index: 2;
+            width: 90%;
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 50px;
+            background: rgba(27, 31, 34, 0.85);
+            border-radius: 5px;
+        }
+
+        #research h1 {
+            margin-bottom: 25px;
+        }
+
+        #research > p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+        }
+
+        /* Research sections */
+        .research-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 35px;
+            padding: 35px 0;
+            border-bottom: 1px solid
+                rgba(255, 255, 255, 0.15);
+        }
+
+        .research-text {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .research-text h2 {
+            margin-bottom: 15px;
+        }
+
+        .research-text p {
+            font-size: 1rem;
+            line-height: 1.8;
+            text-align: justify;
+        }
+
+        /* Figures on the right */
+        .research-figure {
+            width: 38%;
+            flex-shrink: 0;
+            margin: 0;
+        }
+
+        .research-figure img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 10px;
+        }
+
+        .research-figure figcaption {
+            margin-top: 10px;
+            font-size: 0.8rem;
+            line-height: 1.5;
+            opacity: 0.7;
+            text-align: center;
+        }
+
+        /* Mobile layout */
+        @media screen and (max-width: 736px) {
+            #research {
+                padding: 25px;
+                margin: 30px auto;
+            }
+
+            .research-item {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .research-figure {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="research">
+
+        <h1 class="major">Research</h1>
+
+        <p>
+           Under construction !
+        </p>
+        
+        <p>
+            In the meantime, feel free to explore more
+            <a href="aboutme.html">About me</a>, my
+            <a href="cv.html">CV</a>, and 
+            <a href="publications.html">Publications</a>. 
+        </p>
+
+<!--
+
+        RESEARCH TOPIC 1
+        <section class="research-item">
+
+            <div class="research-text">
+                <h2>The Interstellar Medium in Distant Galaxies</h2>
+
+                <p>
+                    Describe your work on molecular gas,
+                    dust, and star formation in high-redshift
+                    galaxies here.
+                </p>
+
+                <p>
+                    <a href="YOUR_PUBLICATION_LINK">
+                        Related publication
+                    </a>
+                </p>
+            </div>
+
+            <figure class="research-figure">
+                <img src="images/research1.jpg"
+                     alt="Observations of a distant galaxy"
+                     loading="lazy">
+
+                <figcaption>
+                    Caption describing the figure.
+                </figcaption>
+            </figure>
+
+        </section>
+
+        RESEARCH TOPIC 2 
+        <section class="research-item">
+
+            <div class="research-text">
+                <h2>Galaxy Evolution and Simulations</h2>
+
+                <p>
+                    Describe your work combining observations
+                    with hydrodynamical simulations and
+                    radiative transfer modeling.
+                </p>
+            </div>
+
+            <figure class="research-figure">
+                <img src="images/research2.jpg"
+                     alt="Galaxy simulation visualization"
+                     loading="lazy">
+
+                <figcaption>
+                    Caption describing the simulation.
+                </figcaption>
+            </figure>
+
+        </section>
+
+        RESEARCH TOPIC 3 
+        <section class="research-item">
+
+            <div class="research-text">
+                <h2>Dusty Star-Forming Galaxies</h2>
+
+                <p>
+                    Describe your research on extreme
+                    star-forming galaxies in the early Universe.
+                </p>
+            </div>
+
+            <figure class="research-figure">
+                <img src="images/research3.jpg"
+                     alt="Distant star-forming galaxies"
+                     loading="lazy">
+
+                <figcaption>
+                    Caption describing the image.
+                </figcaption>
+            </figure>
+
+        </section>
+        
+-->
+
+        <!-- BACK BUTTON -->
+        <ul class="actions" style="margin-top: 35px;">
+            <li>
+                <a href="index.html" class="button">
+                    Back to Home
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <!-- Background -->
+    <div id="bg"></div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
